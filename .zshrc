@@ -79,6 +79,9 @@ prompt_dir() {
   prompt_segment blue black '%2~'
 }
 
+# Change LS colors
+LS_COLORS="ow=01;36;40" && export LS_COLORS
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
