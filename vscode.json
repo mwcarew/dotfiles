@@ -11,6 +11,5 @@
   "editor.minimap.enabled": false,
   "prettier.eslintIntegration": true,
   "eslint.nodePath": "C:/Users/mwcar/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/mwcarew/.npm-global/lib/node_modules",
-  "workbench.statusBar.feedback.visible": false,
-  "git.path": "C:/Program Files (x86)/WSLGit/wslgit.exe"
+  "workbench.statusBar.feedback.visible": false
 }
