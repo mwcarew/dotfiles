@@ -111,4 +111,5 @@ LS_COLORS="ow=01;36;40" && export LS_COLORS
 alias docker=docker.exe
 alias docker-compose=docker-compose.exe
 
+export DOCKER_HOST=tcp://localhost:2375
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
