@@ -12,5 +12,7 @@
   "workbench.statusBar.feedback.visible": false,
   "workbench.startupEditor": "newUntitledFile",
   "eslint.nodePath": "C:/Users/mwcar/Utilities/node.bat",
-  "git.path": "C:/Users/mwcar/Utilities/wslgit.exe"
+  "git.path": "C:/Users/mwcar/Utilities/wslgit.exe",
+  "workbench.iconTheme": "eq-material-theme-icons-darker",
+  "workbench.colorTheme": "Material Theme Darker"
 }
