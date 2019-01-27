@@ -15,5 +15,5 @@
   "git.path": "C:/Users/mwcar/Utilities/wslgit.exe",
   "workbench.iconTheme": "eq-material-theme-icons-darker",
   "workbench.colorTheme": "Material Theme Darker",
-  "typescript.validate.enable": false
+  "javascript.validate.enable": false
 }
