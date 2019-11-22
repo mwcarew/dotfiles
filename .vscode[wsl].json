@@ -1,8 +1,7 @@
 {
-  "[javascript]": {
-    "editor.formatOnSave": false,
-  },
-  "eslint.autoFixOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "javascript.validate.enable": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
   "workbench.iconTheme": "eq-material-theme-icons-darker"
 }
