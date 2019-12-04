@@ -16,3 +16,10 @@ LS_COLORS="ow=01;36;40" && export LS_COLORS # Fix directory colors
 
 # Miscellaneous
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
+
+# Aliases
+alias nmap='powershell.exe nmap'
+alias ncat='powershell.exe ncat'
+alias ndiff='powershell.exe ndiff'
+alias zenmap='powershell.exe zenmap'
+alias nping='powershell.exe nping'
