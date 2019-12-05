@@ -4,5 +4,6 @@
   "prettier.jsxBracketSameLine": true,
   "prettier.trailingComma": "es5",
   "prettier.singleQuote": true,
+  "prettier.useTabs": true,
   "workbench.iconTheme": "eq-material-theme-icons-darker"
 }
