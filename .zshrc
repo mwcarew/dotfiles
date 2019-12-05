@@ -21,5 +21,4 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 alias nmap='powershell.exe nmap'
 alias ncat='powershell.exe ncat'
 alias ndiff='powershell.exe ndiff'
-alias zenmap='powershell.exe zenmap'
 alias nping='powershell.exe nping'
