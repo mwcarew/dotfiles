@@ -10,7 +10,6 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.fontFamily": "Fira Code",
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
     "workbench.colorTheme": "Material Theme Darker",
     "workbench.editor.tabCloseButton": "off",
     "workbench.iconTheme": "vs-minimal",
