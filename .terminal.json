@@ -10,13 +10,6 @@
     "profiles":
     [
         {
-            "guid": "{d3b9fdb4-9b8f-4735-97fe-1aed5e648701}",
-            "name": "ODROID-HC2",
-            "commandline": "ssh 10.0.0.2",
-            "fontFace": "Fira Code",
-            "icon": "C:\\Users\\mwcar\\Google Drive\\Images\\network.png"
-        },
-        {
             "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
             "name": "PowerShell",
             "commandline": "powershell.exe -nologo",
@@ -27,10 +20,9 @@
         {
             "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
             "name": "Ubuntu",
-            "source": "Windows.Terminal.Wsl",
+            "commandline": "ssh mwcarew@10.0.0.5",
             "fontFace": "Fira Code",
-            "icon": "C:\\Users\\mwcar\\Google Drive\\Images\\ubuntu.png",
-            "hidden": false
+            "icon": "C:\\Users\\mwcar\\Google Drive\\Images\\ubuntu.png"
         },
         {
             "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
