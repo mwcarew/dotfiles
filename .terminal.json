@@ -3,31 +3,33 @@
 
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "copyOnSelect": true,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "requestedTheme" : "dark",
 
-    "profiles":
-    [
+    "profiles": {
+        "defaults":
+        {
+            "fontFace": "Fira Code"
+        },
+        "list": [
         {
             "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
             "name": "Code",
             "commandline": "ssh mwcarew@mwcarew.duckdns.org -p 44422",
-            "fontFace": "Fira Code",
             "icon": "C:\\Users\\mwcar\\Google Drive\\Images\\ubuntu.png"
         },
         {
             "guid": "{2c4de342-38b7-51cf-b940-2309a097f517}",
             "name": "DragonRealms",
             "commandline": "ssh mwcarew@mwcarew.duckdns.org -p 44423",
-            "fontFace": "Fira Code",
-            "icon": "C:\\Users\\mwcar\\Google Drive\\Images\\ubuntu.png"
+            "icon": "C:\\Users\\mwcar\\Google Drive\\Images\\ubuntu.png",
+            "suppressApplicationTitle": true,
+            "tabTitle": "DragonRealms"
         },
         {
             "guid": "{d3b9fdb4-9b8f-4735-97fe-1aed5e648701}",
             "name": "Pihole",
             "commandline": "ssh pi@10.0.0.2",
-            "fontFace": "Fira Code",
             "icon": "C:\\Users\\mwcar\\Google Drive\\Images\\network.png"
         },
         {
@@ -35,7 +37,6 @@
             "name": "PowerShell",
             "commandline": "powershell.exe -nologo",
             "colorScheme": "Campbell",
-            "fontFace": "Fira Code",
             "hidden": false
         },
         {
@@ -50,7 +51,8 @@
             "commandline": "cmd.exe",
             "hidden": true
         }
-    ],
+        ]
+    },
 
     "schemes": [],
     "keybindings": []
