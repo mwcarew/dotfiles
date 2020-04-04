@@ -21,8 +21,8 @@
         {
             "guid": "{2c4de342-38b7-51cf-b940-2309a097f517}",
             "name": "DragonRealms",
-            "commandline": "ssh mwcarew@mwcarew.duckdns.org -p 44423",
-            "icon": "C:\\Users\\mwcar\\Google Drive\\Images\\ubuntu.png",
+            "commandline": "ssh mwcar@mwcarew.duckdns.org -p 44423",
+            "icon": "C:\\Users\\mwcar\\Google Drive\\Images\\windows.png",
             "suppressApplicationTitle": true,
             "tabTitle": "DragonRealms"
         },
