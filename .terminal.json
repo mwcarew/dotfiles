@@ -4,53 +4,55 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-    "requestedTheme" : "dark",
+    "theme": "dark",
 
-    "profiles": {
+    "profiles":
+    {
         "defaults":
         {
             "fontFace": "Fira Code"
         },
-        "list": [
-        {
-            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-            "name": "Code",
-            "commandline": "ssh mwcarew@mwcarew.duckdns.org -p 44422",
-            "icon": "C:\\Users\\mwcar\\Google Drive\\Images\\ubuntu.png"
-        },
-        {
-            "guid": "{2c4de342-38b7-51cf-b940-2309a097f517}",
-            "name": "DragonRealms",
-            "commandline": "ssh mwcar@mwcarew.duckdns.org -p 44423",
-            "icon": "C:\\Users\\mwcar\\Google Drive\\Images\\windows.png",
-            "suppressApplicationTitle": true,
-            "tabTitle": "DragonRealms"
-        },
-        {
-            "guid": "{d3b9fdb4-9b8f-4735-97fe-1aed5e648701}",
-            "name": "Pihole",
-            "commandline": "ssh pi@10.0.0.2",
-            "icon": "C:\\Users\\mwcar\\Google Drive\\Images\\network.png"
-        },
-        {
-            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-            "name": "PowerShell",
-            "commandline": "powershell.exe -nologo",
-            "colorScheme": "Campbell",
-            "hidden": false
-        },
-        {
-            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-            "name": "Azure Cloud",
-            "source": "Windows.Terminal.Azure",
-            "hidden": true
-        },
-        {
-            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-            "name": "cmd",
-            "commandline": "cmd.exe",
-            "hidden": true
-        }
+        "list":
+        [
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "name": "Code",
+                "commandline": "ssh mwcarew@mwcarew.duckdns.org -p 44422",
+                "icon": "C:\\Users\\mwcar\\Google Drive\\Images\\ubuntu.png"
+            },
+            {
+            	"guid": "{2c4de342-38b7-51cf-b940-2309a097f517}",
+            	"name": "Play",
+            	"fontFace": "Cascadia Code",
+            	"commandline": "ssh mwcarew@mwcarew.duckdns.org -p 44423",
+            	"icon": "C:\\Users\\mwcar\\Google Drive\\Images\\debian.png",
+            	"suppressApplicationTitle": true,
+            	"tabTitle": "Play"
+            },
+            {
+            	"guid": "{d3b9fdb4-9b8f-4735-97fe-1aed5e648701}",
+            	"name": "Pihole",
+            	"commandline": "ssh pi@10.0.0.2",
+            	"icon": "C:\\Users\\mwcar\\Google Drive\\Images\\network.png"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": false
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Command Prompt",
+                "commandline": "cmd.exe",
+                "hidden": true
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
         ]
     },
 
