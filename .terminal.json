@@ -25,9 +25,7 @@
             	"name": "Play",
             	"fontFace": "Cascadia Code",
             	"commandline": "ssh mwcarew@mwcarew.duckdns.org -p 44423",
-            	"icon": "C:\\Users\\mwcar\\Google Drive\\Images\\debian.png",
-            	"suppressApplicationTitle": true,
-            	"tabTitle": "Play"
+            	"icon": "C:\\Users\\mwcar\\Google Drive\\Images\\debian.png"
             },
             {
             	"guid": "{d3b9fdb4-9b8f-4735-97fe-1aed5e648701}",
